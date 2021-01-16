@@ -17,4 +17,6 @@ iptables -A INPUT -j DROP
 iptables -A OUTPUT -d $ACCEPT_CIDR -j ACCEPT
 iptables -A OUTPUT -j DROP
 
+# export LOCAL_API="http://$(ip address | grep -E 'inet.*brd' | awk '{ print $2 }')/v1/maps/"
+
 exec sudo -u app "$@"
