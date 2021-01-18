@@ -1,7 +1,7 @@
 export const PageTitle =
 	'OnlineWardleyMaps - Draw Wardley Maps in seconds using this free online tool';
 
-export const ApiEndpoint = 'https://api.onlinewardleymaps.local/v1/maps/';
+export const ApiEndpoint = 'http://localhost:4000/v1/maps/';
 
 export const defaultLabelOffset = { x: 5, y: -10 };
 export const increasedLabelOffset = { x: 5, y: -20 };
